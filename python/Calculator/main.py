@@ -62,7 +62,7 @@ if op == ops[7]:
     if shape_3D not in shapes_3D:
         raise TypeError("Invalid input!")
     if shape_3D == shapes_3D[0]:
-        print("rect")
+        print("rectP ")  
         L = int(input("Length: "))
         W = int(input("Width: "))
         H = int(input("Height: "))
