@@ -88,7 +88,7 @@ if op == ops[7]:
         L = int(input("Length: "))
         W = int(input("Width: "))
         B = L*W
-        A = (1/3)*(B*H)
+        A = B*(H/3)
         print(A)
         sys.exit(0)
 num_1 = int(input("First number: "))
