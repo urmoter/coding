@@ -1,12 +1,7 @@
 import sys
 # ------------------------------
 ops = ["+" , "-" , "*" , "^" , "/" , "%", "2D", "3D", ]
-add = False
-sub = False
-mul = False
-exp = False
-div = False
-rem = False
+add = sub = mul = exp = div = rem = False
 #-------------------------------
 op = input("What operation(+,-,*,^,/,%,2D,3D)?: ")
 if op not in ops:
@@ -51,7 +46,7 @@ if op == ops[6]:
         print("circ")
         pi = 3.14
         R = int(input("Radius: "))
-        A = pi * R**2
+        A = pi * (R**2)
         print(A)
         sys.exit(0)
     if shape == shapes[3]:
@@ -62,12 +57,12 @@ if op == ops[6]:
         print(A)
         sys.exit(0)
 if op == ops[7]:
-    shapes_3D = ["rectP", "cube", "sph", "pyr", ]
+    shapes_3D = ["rect", "cube", "sph", "pyr", ]
     shape_3D = input("What shape(rect,cube,sph,pyr): ")
     if shape_3D not in shapes_3D:
         raise TypeError("Invalid input!")
     if shape_3D == shapes_3D[0]:
-        print("rectP")
+        print("rect")
         L = int(input("Length: "))
         W = int(input("Width: "))
         H = int(input("Height: "))
@@ -76,7 +71,7 @@ if op == ops[7]:
         sys.exit(0)
     if shape_3D == shapes_3D[1]:
         print("cube")
-        S = int(input("Side: "))
+        S = int(input("Edge: "))
         A = S**3
         print(A)
         sys.exit(0)
