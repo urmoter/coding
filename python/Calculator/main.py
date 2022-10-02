@@ -79,7 +79,7 @@ if op == ops[7]:
         print("sphere")
         pi = 3.14
         R = int(input("Radius: "))
-        A = (4/3)*(pi * R**3)
+        A = (4/3)*pi * (R**3)
         print(A)
         sys.exit(0)
     if shape_3D == shapes_3D[3]:
