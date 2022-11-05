@@ -1,3 +1,4 @@
 var Name = "conrad";
 var date = new Date();
-console.log("Hello ".concat(Name, " today is ").concat(date, "!"));
+var user = process.env.USER || "";
+console.log("Hello ".concat(user, " today is ").concat(date, "!"));

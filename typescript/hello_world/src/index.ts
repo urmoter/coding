@@ -1,4 +1,5 @@
 const Name = "conrad";
 let date = new Date();
+const user = process.env.USER || ""
 
-console.log(`Hello ${Name} today is ${date}!`);
+console.log(`Hello ${user} today is ${date}!`);
