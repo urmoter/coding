@@ -1,0 +1,3 @@
+sudo snap install --classic kotlin
+kotlinc [kotlin file].kt -include-runtime -d [java file].jar
+java -jar [java file].jar
