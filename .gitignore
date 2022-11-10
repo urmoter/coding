@@ -1,3 +1,5 @@
 #Ignoring replit :(
 .replit
 replit.nix
+#ignoring jupyter
+.ipynb_checkpoints
