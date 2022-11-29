@@ -3,3 +3,6 @@
 replit.nix
 #ignoring jupyter
 .ipynb_checkpoints
+#ignoring Cargo debug!
+rust/relay/target/debug
+rust/hello_world/target/debug
