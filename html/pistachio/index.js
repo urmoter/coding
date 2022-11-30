@@ -15,7 +15,7 @@ function time() {
 function pr() {
     var value = document.getElementById("num").value;
     if (value != null) {
-        if (isNaN(Number(value))) {
+        if (Number(value) != value) {
             document.getElementById("prompt").innerHTML = "Not a number!";
         }
         else {
