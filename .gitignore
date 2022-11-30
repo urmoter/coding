@@ -6,3 +6,5 @@ replit.nix
 #ignoring Cargo debug!
 rust/relay/target/debug
 rust/hello_world/target/debug
+#ignoring snyk cache
+.dccache
